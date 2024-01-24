@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Recipe</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.svg" alt="simple recipes">
+          </a>
+          <button type="button" class="btn nav-btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="tags.html" class="nav-link">Tags</a>
+          <a href="recipes.html" class="nav-link">Recipes</a>
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img src="./assets/recipes/recipe-4.jpeg" class="img recipe-hero-img" alt="pancakes">
+          <article>
+            <h2>Banana pancake</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus culpa optio accusantium voluptate eos ipsam esse consectetur consequatur magnam perferendis?</p>
+            <div class="recipe-icons">
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>30min.</p>
+              </article>
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>50min.</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>servings</h5>
+                <p>6 servings</p>
+              </article>
+            </div>
+            <div class="recipe-tags">
+              Tag:<a href="tag-template.html">NonVeg</a>
+              <a href="tag-template.html">breakfast</a>
+              <a href="tag-template.html">pancakes</a>
+              <a href="tag-template.html">food</a>
+            </div>
+          </article>
+        </section>
+
+        <section class="recipe-content">
+          <article>
+            <h4>instructions</h4>
+            <div class="single-instruction">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, quo?</p>
+            </div>
+            <div class="single-instruction">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, quo?</p>
+            </div>
+            <div class="single-instruction">
+              <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, quo?</p>
+            </div>
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>ingredients</h4>
+              <p class="single-ingredient">
+                1 cup flour
+              </p>
+              <p class="single-ingredient">
+                1 cup flax seed meal
+              </p>
+              <p class="single-ingredient">
+                1 cup skim milk
+              </p>
+            </div>
+            <div>
+              <h4>tools</h4>
+              <p class="single-tool">Hand blender</p>
+              <p class="single-tool">Large heavy pot</p>
+              <p class="single-tool">Measuring spoon</p>
+              <p class="single-tool">Measuring cups</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <footer class="page-footer">
+      <p>&copy;
+        <span id="date"></span>
+        <span class="fooer-logo"><a href="index.html">SimplyRecipes</a></span>
+        Built by <a href="https://github.com/Shivaraj2003">Shivaraj Shetty</a>
+      </p>
+    </footer>
+   <script src="./js/app.js"></script> 
+  </body>
+</html>
